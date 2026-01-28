@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Menu | Food Quarter Café</title>
+  <meta name="description" content="Food Quarter café menu — coffees, coolers, snacks, desserts and meals." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body data-page="menu">
+<header>
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="Food Quarter Home">
+        <img src="assets/logo.png" alt="Food Quarter logo" />
+        <span class="name">
+          <span>Food Quarter</span>
+          <small>Café • Mumbra, Mumbai</small>
+        </span>
+      </a>
+
+      <div class="navlinks" aria-label="Primary navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="menu.html" data-nav="menu">Menu</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="locations.html" data-nav="locations">Locations</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+        <a href="https://www.instagram.com/foodquarterin/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+
+      <button class="burger" data-burger aria-expanded="false" aria-controls="mobileNav">Menu</button>
+    </nav>
+
+    <div id="mobileNav" class="mobile" data-mobile>
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="menu.html" data-nav="menu">Menu</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="locations.html" data-nav="locations">Locations</a>
+      <a href="gallery.html" data-nav="gallery">Gallery</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a href="https://www.instagram.com/foodquarterin/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</header>
+<main>
+
+<section class="section">
+  <div class="container">
+    <div class="sectionHead">
+      <div>
+        <h2>Menu</h2>
+        <p>Replace items + prices anytime. Keep it short and readable.</p>
+      </div>
+      <a class="btn primary" href="contact.html">Order / Pre-book</a>
+    </div>
+
+    <table class="table" aria-label="Food Quarter Menu Table">
+      <thead>
+        <tr><th>Category</th><th>Top items (sample)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>Hot Coffee</b></td><td>Espresso • Americano • Cappuccino • Latte • Mocha</td></tr>
+        <tr><td><b>Cold Coffee</b></td><td>Classic Cold Coffee • Frappé • Iced Latte • Cold Brew</td></tr>
+        <tr><td><b>Tea & Others</b></td><td>Masala Tea • Green Tea • Hot Chocolate</td></tr>
+        <tr><td><b>Snacks</b></td><td>Fries • Garlic Bread • Nachos • Nuggets</td></tr>
+        <tr><td><b>Sandwich & Wrap</b></td><td>Grilled Sandwich • Paneer Wrap • Veg Club (edit)</td></tr>
+        <tr><td><b>Desserts</b></td><td>Brownie • Waffle • Pastries</td></tr>
+      </tbody>
+    </table>
+
+    <div class="section" style="padding-top:14px">
+      <div class="grid3">
+        <div class="card"><h3>Diet / allergens</h3><p>Ask the counter for ingredient details. We can customize (where possible).</p></div>
+        <div class="card"><h3>Bulk orders</h3><p>For office / events: share quantity + time slot on WhatsApp.</p></div>
+        <div class="card"><h3>Season specials</h3><p>Add 3–5 rotating items monthly to keep people excited.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="container">
+    <div class="footerGrid">
+      <div>
+        <div class="brand">
+          <img src="assets/logo.png" alt="Food Quarter logo" />
+          <span class="name">
+            <span>Food Quarter</span>
+            <small>Café • Mumbra, Mumbai</small>
+          </span>
+        </div>
+        <p>Coffee • Bites • Comfort. Clean, calm, and consistently good.</p>
+        <p><small>© <span id="y"></span> Food Quarter. All rights reserved.</small></p>
+      </div>
+      <div class="footerLinks">
+        <a href="https://www.instagram.com/foodquarterin/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://wa.me/919820343509" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
